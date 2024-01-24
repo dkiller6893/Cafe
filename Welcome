@@ -4,7 +4,7 @@ import { SessionProvider } from "next-auth/react";
 import WelcomeMessage from "../../../components/Welcome/WelcomeMessage";
 
 const userName = "First Last";
-const email = "demo@email.com";
+const email = "exmaple@email.com";
 
 const WelcomeRender = ({ session }) => {
   return (
